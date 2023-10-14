@@ -1,0 +1,67 @@
+.section-1 {
+    padding: 63px 0px 0px /*106*/0px;
+    display: flex;
+    background-image: "images/Scribble-Lightest.png";
+    margin-left: 5px;
+    /*mix-blend-mode: multiply;*/
+}
+.section-1 h1{
+    padding-left: 1px;
+    font: "Cardo";
+    font-style: bold;
+    font-size: 85px;
+    line-height: 82px;
+    letter-spacing: -1.6px ;
+    margin-bottom: 18px;
+}
+.section-1 p{
+    /*padding-left: 6px;*/
+    text-align:justify;
+    padding-right: 9px;
+    margin-left: -1px;
+    font-family: Lato;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    word-spacing: -0.4px;
+}
+.sec1-two-rows{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -5px;
+}
+.sec1-first-row button
+{
+    margin-top: 41px;
+    margin-left: 2px;
+    height: 55px;
+    width: 256px;
+    font-size: 21px;
+    padding-bottom: 3px;
+    border-style:solid;
+    font-weight: 800;
+    color:#e9e7e7;
+    background-color: #232323;
+    border-radius: 5px;
+    word-spacing: -2px;
+    letter-spacing: -2px;
+}
+/*
+.sec1-two-rows div{
+    display: flex;
+    justify-content: space-between;
+}*/
+.sec1-first-row{
+    display: flex;
+    flex-direction: column;
+    width: 434px;
+    padding-right: 106px;
+ 
+}
+.sec1-second-row
+{
+    margin-left:-7px;
+
+}

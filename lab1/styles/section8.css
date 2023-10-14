@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+}
+
+.class-section-8 .div-image{
+  margin-top: 13px;
+  width: 666px;
+  height: 730px;
+}
+
+.class-section-8 .class-image{
+  width: 666px;
+  height: 730px;
+}
+
+.class-section-8 .formAndImg{
+  display: flex;
+  flex-direction: row;
+  height: 957px;
+}
+
+.class-section-8 .class-form{
+  display:flex;
+  width: 660px;
+  justify-content: center;
+  height: 100vh;
+}
+
+.class-section-8 .class-form input::placeholder,textarea::placeholder{
+  color: #232323;
+}
+
+.class-section-8 .class-form #beUpdT{
+  font-family: 'Cardo',serif;
+  word-spacing: 0.5px;
+  margin-left: 1.5px;
+  color: #232323;
+  letter-spacing: 1px;
+  font-size: 81px;
+  margin-bottom: 31px;
+}
+
+.class-section-8 .class-form input[type="text"], textarea {
+  padding-left: 27px;
+  padding-top: -2px;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  font-size: 21px;
+  margin-bottom:23px;
+  border-radius: 5px;
+  border: 3.5px solid #232323;
+  display: block;
+  width: calc(452px - 28px);
+  height: 55px;
+}
+
+.class-section-8 .class-form #Email_Subject{
+  margin-top:24px;
+  padding-left: 24px;
+  width: calc(452px - 24px);
+}
+
+.class-section-8 .class-form #Textarea_WSH{
+  padding-top: 15px;
+  margin-top: -1px;
+  padding-left: 24.5px;
+  height: calc(220px - 15px);
+  width: calc(452px - 24px);
+}
+
+.class-section-8 .class-form #myForm1 {
+  width: 435px;
+}
+
+.class-section-8 .class-form #btnSub{
+  padding-left: 4px;
+  margin-top:33px;
+  color: #e9e7e7;
+  font-family:  Lato,sans-serif;
+  font-size: 25px;
+  background-color: #232323;
+  border-radius: 5px;
+  width: 456px;
+  height: 67px;
+  transition: transform 1.5s, background-color 1.5s;
+}
+
+.class-section-8 .class-form #btnSub:hover{
+  transform: scale(1.02);
+  background-color: #555555;
+  border-color: transparent;
+}
