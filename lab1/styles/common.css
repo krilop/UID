@@ -28,5 +28,6 @@ a{
 }
 .400px
 {
+    display: flex;
     height: 400px;
 }
