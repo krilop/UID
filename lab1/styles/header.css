@@ -61,10 +61,12 @@
     margin-right: 15px;
     border-width: 3px;
     border-style:solid;
-    font-size: 20px;
+    font-size: 22px;
+    font-family: Lato;
     padding: 0px 3px 3px 3px;
     font-weight: 900;
-    letter-spacing: -1.7px;
+    letter-spacing: -0.5px;
+    word-spacing: -0.5px;
     background-color: #e9e7e7;    
     border-color: #232323;
     border-radius: 5px;/*
