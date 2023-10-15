@@ -69,6 +69,12 @@
     word-spacing: -0.5px;
     background-color: #e9e7e7;    
     border-color: #232323;
-    border-radius: 5px;/*
-    padding: 10px 45px 12px 45px;*/
+    border-radius: 5px;
+    transition: transform 1.5s, color 1.5s, background-color 0.3s;
+    /*    padding: 10px 45px 12px 45px;*/
+}
+.contact-btn:hover{
+    transform: scale(1.05);
+    color: #e9e7e7;
+    background-color: #232323;
 }
