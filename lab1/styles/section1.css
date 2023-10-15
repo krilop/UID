@@ -1,16 +1,17 @@
 .section-1 {
     
-    padding: 63px 0px 0px /*106*/0px;
+    padding: 63px 0px 0px 113px;
     display: flex;
     margin-left: 5px;
     /*mix-blend-mode: multiply;*/
 }
 .background-image
 {
+    height: 641px;
     background-image: url("../images/lightScribble.png");
-    background-size: cover;
+    background-position-y: -68%;
     background-repeat: no-repeat;
-    background-position:center;
+    
     
 }
 
@@ -18,9 +19,9 @@
     padding-left: 1px;
     font: "Cardo";
     font-style: bold;
-    font-size: 85px;
+    font-size: /*85px*/ 5em;
     line-height: 82px;
-    letter-spacing: -1.6px;
+    letter-spacing: 0.8px;
     margin-bottom: 18px;
 }
 .section-1 p{
@@ -30,7 +31,7 @@
     margin-left: -1px;
     font-family: Lato;
     font-style: normal;
-    font-size: 16px;
+    font-size: /*16px*/1em;
     line-height: 20px;
     font-weight: 600;
     letter-spacing: -0.2px;
@@ -45,17 +46,22 @@
 {
     margin-top: 41px;
     margin-left: 2px;
-    height: 55px;
+    height: 54px;
     width: 256px;
-    font-size: 21px;
-    padding-bottom: 3px;
+    font-size: /*21px*/1.3em;
+    padding-bottom: 2px;
     border-style:solid;
     font-weight: 800;
     color:#e9e7e7;
     background-color: #232323;
     border-radius: 5px;
-    word-spacing: -2px;
-    letter-spacing: -2px;
+    word-spacing: -3.3px;
+    letter-spacing: -1.7px;
+}
+.sec1-first-row button:hover{
+    transform: scale(1.05);
+    color: #232323;
+    background-color: #e9e7e7;
 }
 /*
 .sec1-two-rows div{
@@ -73,4 +79,8 @@
 {
     margin-left:-7px;
 
+}
+.scribble-dark{
+    margin-top: 206%;
+    margin-left: 10%;
 }
