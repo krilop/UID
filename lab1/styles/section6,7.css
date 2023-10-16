@@ -55,6 +55,7 @@
   height:18px;
   position: relative;
   float:right;
+  transition: transform 1.5s, color 1.5s, background-color 0.3s;
 }
 .rectangle{
   position: relative;
@@ -126,6 +127,7 @@
 #idPersonIcon3{
   position: absolute;
   margin-left:-8px;
+  text-align:center;
 }
 #idPersonIcon1{
   position: absolute;
@@ -166,7 +168,6 @@
   letter-spacing: -0.5px;
 }
 .third-icon .icon-text #idName3{
-  margin-left:0px;
   margin-bottom: 17px;
   font-family: 'Lato',sans-serif;
   font-size: 23px;
@@ -179,18 +180,18 @@
 .second-icon .empty-space{
   height: 263px;
 }
-/*.second-icon .icon-text{
-
-}*/
 .first-icon .icon-text #idParagraph1{
+  margin-left:25px;
+  margin-right:13px;
   font-size: 16px;
   font-family: 'Lato',sans-serif;
   font-weight: 400;
   color: #6d6d6d;
   letter-spacing: 0.2px;
-
 }
 .second-icon .icon-text #idParagraph2{
+  margin-left:22px;
+  margin-right:13px;
   font-size: 16px;
   font-family: 'Lato',sans-serif;
   font-weight: 400;
@@ -199,6 +200,8 @@
 
 }
 .third-icon .icon-text #idParagraph3{
+  margin-left:20px;
+  margin-right:13px;
   font-size: 16px;
   font-family: 'Lato',sans-serif;
   font-weight: 400;
@@ -245,7 +248,9 @@
   z-index: 2;
   margin-bottom:6px;
 }
-
+.line{
+  transition: transform 1.5s, color 1.5s, background-color 0.3s;
+}
 .scribble7Gr{
   margin-left:20px;
 }
