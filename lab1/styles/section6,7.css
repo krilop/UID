@@ -29,33 +29,29 @@
   clear:left;
   display: flex;
   flex-direction: row;
-  letter-spacing: -0.55px;
+  letter-spacing: -0.9px;
 }
 .mainRectsGr6{
   position: relative;
   width: 755px;
-  height: 77px;
+  height: 63px;
   margin-bottom:20px;
   font-size:20px;
-  margin-top: 30px;
+  margin-top: 23px;
   display: flex;
   flex-direction: column;
 }
 .line{
   position: relative;
   width:755px;
-  height:77px;
-  margin-top: 8px;
+  height:70px;
   float: left;
   clear:left;
 }
 .button_E{
-  margin-left:149px;
-  width:18px;
-  height:18px;
   position: relative;
-  float:right;
-  transition: transform 1.5s, color 1.5s, background-color 0.3s;
+  left:145px;
+ /* transition: transform 1.5s, color 1.5s, background-color 0.3s;*/
 }
 .rectangle{
   position: relative;
@@ -66,14 +62,14 @@
 .headingGr6{
   margin-left:2px;
   margin-top:2px;
-  height:218px;
+  height:222px;
   width:1440px;
   font-family: 'Cardo',serif;
   line-height: 83px;
   font-weight: bolder;
   font-size: 85px;
   text-align: left;
-  letter-spacing: 1px;
+  letter-spacing: -1px;
 
 }
 .imGr6{
@@ -101,7 +97,7 @@
   font-weight:900;
   font-size: 85px;
   text-align: center;
-  letter-spacing: 0.7px;
+  letter-spacing: -1px;
 }
 .first-icon .line{
   position: absolute;
@@ -155,30 +151,30 @@
   margin-left:25px;
   margin-bottom: 17px;
   font-family: 'Lato',sans-serif;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: bold ;
-  letter-spacing: -0.5px;
+  letter-spacing: 0.5px;
 }
 .second-icon .icon-text #idName2{
   margin-left:9px;
   margin-bottom: 17px;
   font-family: 'Lato',sans-serif;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: bold ;
-  letter-spacing: -0.5px;
+  letter-spacing: 0.5px;
 }
 .third-icon .icon-text #idName3{
   margin-bottom: 17px;
   font-family: 'Lato',sans-serif;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: bold ;
-  letter-spacing: -0.5px;
+  letter-spacing: 0.5px;
 }
 .second-icon #idPersonIcon2{
   position: absolute;
 }
 .second-icon .empty-space{
-  height: 263px;
+  height: 255px;
 }
 .first-icon .icon-text #idParagraph1{
   margin-left:25px;
@@ -210,10 +206,10 @@
 
 }
 .first-icon .icon-text .empty-space{
-  height: 263px;
+  height: 255px;
 }
 .third-icon .empty-space{
-  height: 263px;
+  height: 255px;
 }
 .icon-text{
   width: 386px;
@@ -250,6 +246,13 @@
 }
 .line{
   transition: transform 1.5s, color 1.5s, background-color 0.3s;
+}
+.button_E7{
+  z-index: 2;
+  margin-right:8px;
+  margin-bottom:6px;
+  width:32px;
+  height:32px;
 }
 .scribble7Gr{
   margin-left:20px;
