@@ -7,7 +7,7 @@
 }
 
 .class-section-8 .div-image{
-  margin-top: 13px;
+  margin-top: 14px;
   width: 666px;
   height: 730px;
 }
@@ -39,9 +39,10 @@
   word-spacing: 0.5px;
   margin-left: 1.5px;
   color: #232323;
-  letter-spacing: 1px;
-  font-size: 81px;
-  margin-bottom: 31px;
+  font-size: 84px;
+  font-weight:bolder;
+  margin-bottom: 26px;
+  letter-spacing: -1px;
 }
 
 .class-section-8 .class-form input[type="text"], textarea {
