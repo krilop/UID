@@ -34,6 +34,7 @@
 {
     background-image: url("../images/sec3-image.png");
     background-position-y: -15px;
+    background-repeat: no-repeat;
 }
 .sec3-line
 {
