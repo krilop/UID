@@ -245,6 +245,7 @@
   
       .group_5
       {
+          width: 1440px;
           max-height: 870px;
           max-width: 1440px;
           margin: 0 auto;
@@ -253,7 +254,8 @@
           padding-left: 119px;
           padding-right: 0px;
           padding-bottom: 155px;
-          background-image: url("../img/pers-back.png");
+          background-color: #232323;
+          background-image: url("../images/pers-back.png");
        }
   
       .wrapper_5
