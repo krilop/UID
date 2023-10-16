@@ -57,11 +57,19 @@
     border-radius: 5px;
     word-spacing: -3.3px;
     letter-spacing: -1.7px;
+    transition: transform 1.5s, color 1.5s, background-color 0.3s;
 }
 .sec1-first-row button:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
     color: #232323;
     background-color: #e9e7e7;
+    border-color: #232323;
+}
+.sec1-first-row button:active{
+    transition: all 0.05s;
+    transform: scale(0.9);
+    color:#e9e7e7;
+    background-color: #232323;
 }
 /*
 .sec1-two-rows div{

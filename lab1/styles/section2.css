@@ -69,7 +69,20 @@
     border-color: #e9e7e7;
     border-radius: 5px;
     border-width: 3px;
+    transition: transform 1.5s, color 1.5s, background-color 0.3s;
     /*padding: 10px 50px 10px 50px;*/
 
 }
 
+.sec2-container button:hover{
+    transform: scale(1.1);
+    color: #232323;
+    background-color: #e9e7e7;
+    border-color: #232323;
+}
+.sec2-container button:active{
+    transition: all 0.05s;
+    transform: scale(0.9);
+    color:#e9e7e7;
+    background-color: #232323;
+}
