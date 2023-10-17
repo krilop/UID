@@ -3,32 +3,48 @@
     margin-top: 166px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 400px;
+    margin-bottom: 213px;
 }
-/*
-.sec3-rows{
-    display: flex;
-    justify-content: space-between;
-    padding: 58px 58px 0 56px;
-    align-items: center;
-}*/
 .sec3-row{
     display: flex;
-    gap: 50px;
+    gap: 19px;
     
     width: 363px;
     flex-direction: column;
     box-sizing: border-box;
 }
+
 .sec3-row h3{
-    font-size: 37px;
-    line-height: 43px;
+    font-size: 2.3em;
+   /* letter-spacing: -2px;
+    word-spacing: 2px;*/
     padding-right: 55px;
-    line-height: 35px;
+    line-height: 1em;
 }
 .sec3-row p{
+    margin-top: 8px;
+    word-spacing: -2px;
     font-family: lato;
     font-weight: 500;
-    font-size: 16px
-
+    /*line-height: 20px;*/
+    font-size: 1em;
+    text-align: justify;
+}
+.sec3-with-bg
+{
+    background-image: url("../images/sec3-image.png");
+    background-position-y: -15px;
+    background-repeat: no-repeat;
+}
+.sec3-line
+{
+    max-width: 30%;
+    max-height: 30%;
+}
+.width-content2
+{
+    margin-left: 118px;
+    margin-right: 115px;
+    width:1207px;
+    overflow-x: hidden;
 }

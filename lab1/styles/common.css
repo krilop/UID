@@ -11,8 +11,8 @@ body {
     color: #232323;
     display: flex;
     flex-direction: column;
-    /*justify-content: center;
-    */
+    justify-content: center;
+    
 }
 
 a{
@@ -21,9 +21,13 @@ a{
 }
 .width-content
 {
-    margin-left: 113px;
-    margin-right: 115px;
+    margin-left: 60px;
+    padding-left: 53px ;
     width:1212px;
     overflow-x: hidden;
 }
+.space-between-5-n-6
+{height: 161px;}
+.space-between-7-n-8
+{height: 83px;}
 
