@@ -57,7 +57,7 @@
 }
 
 .class-section-9 .LogoSpaceScrabble{
-  height: calc(350px + 80px + 150px);
+  height: calc(350px + 80px + 148px);
   display: flex;
   flex-direction: column;
 }
@@ -98,7 +98,7 @@
 
 .class-section-9 .classForCopy{
   display: grid;
-  grid-template-rows: 113.5px 63px 257px 500px;
+  grid-template-rows: 113.5px 63px 257px;
   margin-left: -16px;
   /*flex-direction: column;*/
   word-spacing: 1px;
