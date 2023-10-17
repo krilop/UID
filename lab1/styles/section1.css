@@ -57,7 +57,7 @@
     border-radius: 5px;
     word-spacing: -3.3px;
     letter-spacing: -1.7px;
- /*   transition: transform 1.5s, color 1.5s, background-color 0.3s;*/
+    transition: transform 1.5s, color 1.5s, background-color 0.3s;
 }
 .sec1-first-row button:hover{
     transform: scale(1.1);

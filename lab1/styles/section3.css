@@ -3,7 +3,7 @@
     margin-top: 166px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 397px;
+    margin-bottom: 213px;
 }
 .sec3-row{
     display: flex;
@@ -34,6 +34,7 @@
 {
     background-image: url("../images/sec3-image.png");
     background-position-y: -15px;
+    background-repeat: no-repeat;
 }
 .sec3-line
 {

@@ -36,8 +36,11 @@
     text-align: center;
     line-height: 57px;
 }
-.sec2-container p{
-    padding-top: 19px;
+.sec2-container p:first-of-type{
+    margin-top: 19px;
+}
+.sec2-container p 
+{
     padding-left: 6px;
     font-family: lato;
     text-align: center;
