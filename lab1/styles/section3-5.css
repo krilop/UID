@@ -239,6 +239,7 @@
 
     .text_4_1
     {
+      margin-top: -1px;
       font-family: 'Cardo';
       font-style: normal;
       font-weight: 400;
@@ -248,7 +249,7 @@
       text-decoration-thickness: 2px;
       width: 235px;
       margin-left: 1px;
-      letter-spacing: -0.1px;
+      letter-spacing: 1.2px;
       text-shadow: 1.3px 0px 0px #232323;
       line-height: 1.36;
     }
