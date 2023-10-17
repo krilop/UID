@@ -6,13 +6,8 @@
   padding:0;
 }
 
-.class-section-8 .div-image{
-  margin-top: 13px;
-  width: 666px;
-  height: 730px;
-}
-
 .class-section-8 .class-image{
+  margin-top: 13px;
   width: 666px;
   height: 730px;
 }
@@ -36,11 +31,13 @@
 
 .class-section-8 .class-form #beUpdT{
   font-family: 'Cardo',serif;
+  width: 475px;
   word-spacing: 0.5px;
   margin-left: 1.5px;
   color: #232323;
   letter-spacing: 1px;
   font-size: 81px;
+  font-weight: 700;
   margin-bottom: 31px;
 }
 
