@@ -1,16 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap');
 
-*{
-  margin: 0;
-  padding:0;
-}
 
-.class-section-8 .div-image{
-  margin-top: 14px;
-  width: 666px;
-  height: 730px;
-}
+
 .class-section-8 .class-image{
   margin-top: 13px;
   width: 666px;
@@ -35,16 +27,14 @@
 }
 
 .class-section-8 .class-form #beUpdT{
-  font-family: 'Cardo',serif;
   width: 475px;
+  font-family: 'Cardo',serif;
   word-spacing: 0.5px;
   margin-left: 1.5px;
   color: #232323;
   letter-spacing: 1px;
   font-size: 81px;
-  font-weight: 700;
   margin-bottom: 31px;
-
 }
 
 .class-section-8 .class-form input[type="text"], textarea {

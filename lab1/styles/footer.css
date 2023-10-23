@@ -26,26 +26,19 @@
   color: #232323;
   font-family: 'Cardo',serif;
   font-weight: 700;
-  font-size: 63px;
+
 
   line-height: 62px;
 }
 
-.class-section-9 .classAlign{
-  /*width: 972px;*/
-  /*height: 321px;*/
-  /*margin-left: -16px;*/
-  /*display: grid;*/
-  /*!*flex-direction: column;*!*/
-  /*word-spacing: 1px;*/
-}
 #myLog{
   height: 130px;
   width: 250px;
+  font-size: 63px;
 }
 .class-section-9 #copyrightT{
   grid-row: 4;
-
+  height: 10px;
   display: flex;
   margin-left: 48px;
   word-spacing: -0.2px;
@@ -78,7 +71,9 @@
 .class-section-9 .firstLine{
   width: 218px;
 }
-
+.class-section-9 .forthLine{
+  width: 218px;
+}
 .class-section-9 .secLine{
   width: 223px;
 }
@@ -91,6 +86,7 @@
 .class-section-9 .linksF{
   grid-row: 3;
   display: flex;
+  flex-direction: row;
   line-height: 47.5px;
   color: #232323;
   letter-spacing: -1px;
@@ -98,7 +94,7 @@
 
 .class-section-9 .classForCopy{
   display: grid;
-  grid-template-rows: 113.5px 63px 257px;
+  grid-template-rows: 113.5px 63px 257px 498px;
   margin-left: -16px;
   /*flex-direction: column;*/
   word-spacing: 1px;
@@ -117,16 +113,19 @@
 }
 
 .class-section-9 a {
+  display: flex;
+  flex-direction: row;
   font-size: 21px;
   font-family: Lato, sans-serif;
   font-weight: 400;
   text-decoration: none;
   color: inherit;
-  transition: border-bottom-color 2s, color 0.5s;
+  transition: border-right-color 2s, color 0.5s;
   border: 2px solid transparent;
 }
 
 .class-section-9 a:hover {
-  border-bottom-color:#232323;
+  border-right-color:#232323;
+
   color:#e9e7e7;
 }
