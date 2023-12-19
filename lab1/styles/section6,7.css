@@ -1,10 +1,9 @@
-
-
 .group6{
-  margin-top: 10px;
+  padding-top: 10.5em;
+  margin-top: 5px;
   margin-left: 68px;
   width:1400px;
-  height:770px;
+  height:771px;
   display:flex;
   flex-direction: row;
 
@@ -13,9 +12,8 @@
   margin-left:40px;
   width:760px;
   height:560px;
-
-
 }
+
 .mainTextGr6{
   width:755px;
   margin-bottom:6.5px;
@@ -58,7 +56,6 @@ transform: scale(1.1);
 .button_E{
   position: relative;
   left:145px;
- /* transition: transform 1.5s, color 1.5s, background-color 0.3s;*/
 }
 .rectangle{
   position: relative;
@@ -95,6 +92,9 @@ transform: scale(1.1);
 }
 
 
+.section-7{
+  margin-bottom: 91px;
+}
 .super-large-text-section7{
   margin-left:63px;
   margin-top:50px;
@@ -105,36 +105,19 @@ transform: scale(1.1);
   text-align: center;
   letter-spacing: -1px;
 }
-.first-icon .line{
-  position: absolute;
-  height: 258px;
-}
-.third-icon .line{
-  position: absolute;
-  height: 258px;
-  width: 435px;
-}
-.icons-section-7 .empty-space{
-  width: 99px;
-}
+
 .first-icon{
+  position: relative;
   height: 433px;
   width: 386px;
+  left: 10px;
 }
 .third-icon{
   height: 433px;
   width: 386px;
   margin-right:3px;
 }
-#idPersonIcon3{
-  position: absolute;
-  margin-left:-8px;
-  text-align:center;
-}
-#idPersonIcon1{
-  position: absolute;
-  margin-left:10px;
-}
+
 .third-icon .line #idLineR {
   position: absolute;
   bottom:0;
@@ -151,10 +134,13 @@ transform: scale(1.1);
   width: 418px;
 }
 .icons-section-7 {
+  position: relative;
   display: flex;
   flex-direction: row;
 }
 .first-icon .icon-text #idName1{
+  position: relative;
+  top: 255px;
   margin-left:25px;
   margin-bottom: 17px;
   font-family: 'Lato',sans-serif;
@@ -163,6 +149,8 @@ transform: scale(1.1);
   letter-spacing: 0.5px;
 }
 .second-icon .icon-text #idName2{
+  position: relative;
+  top: 255px;
   margin-left:9px;
   margin-bottom: 17px;
   font-family: 'Lato',sans-serif;
@@ -171,19 +159,41 @@ transform: scale(1.1);
   letter-spacing: 0.5px;
 }
 .third-icon .icon-text #idName3{
+  position: relative;
+  top: 255px;
   margin-bottom: 17px;
   font-family: 'Lato',sans-serif;
   font-size: 24px;
   font-weight: bold ;
   letter-spacing: 0.5px;
 }
-.second-icon #idPersonIcon2{
-  position: absolute;
+
+.third-icon{
+  position: relative;
+  background-image: url("../images/IconUser.png");
+  background-repeat: no-repeat;
+  top: 2px;
 }
-.second-icon .empty-space{
-  height: 255px;
+
+.second-icon{
+  position: relative;
+  background-image: url("../images/IconUser.png");
+  background-repeat: no-repeat;
+  margin-left: 22px;
+  top: 2px;
 }
+
+.first-icon{
+  position: relative;
+  background-image: url("../images/IconUser.png");
+  background-repeat: no-repeat;
+  top: 2px;
+  left: 21px;
+}
+
 .first-icon .icon-text #idParagraph1{
+  position: relative;
+  top: 255px;
   margin-left:25px;
   margin-right:13px;
   font-size: 16px;
@@ -193,6 +203,8 @@ transform: scale(1.1);
   letter-spacing: 0.2px;
 }
 .second-icon .icon-text #idParagraph2{
+  position: relative;
+  top: 255px;
   margin-left:22px;
   margin-right:13px;
   font-size: 16px;
@@ -203,6 +215,8 @@ transform: scale(1.1);
 
 }
 .third-icon .icon-text #idParagraph3{
+  position: relative;
+  top: 255px;
   margin-left:20px;
   margin-right:13px;
   font-size: 16px;
@@ -212,12 +226,7 @@ transform: scale(1.1);
   letter-spacing: 0.2px;
 
 }
-.first-icon .icon-text .empty-space{
-  height: 255px;
-}
-.third-icon .empty-space{
-  height: 255px;
-}
+
 .icon-text{
   width: 386px;
   height: 427px;
@@ -227,34 +236,34 @@ transform: scale(1.1);
   align-items: center;
   text-align: center;
 }
-.second-icon #idPersonIcon2{
-  margin-top:2px;
-}
-.first-icon #idPersonIcon1{
-  position: absolute;
-  z-index: 0;
-  margin-top:2px;
-}
-.third-icon #idPersonIcon3{
-  position: absolute;
-  z-index: 0;
-  margin-top:2px;
-}
-.third-icon #idLineR{
-  position: absolute;
+
+ #idLineR{
+  position: relative;
+   top: 172px;
+  background-image: url("../images/LineR.png");
+  width: 88px;
+  height: 76px;
+  right: 70px;
   z-index: 2;
   margin-right:8px;
   margin-bottom:6px;
   background-color: rgba(0, 0, 0, 0);
   border-width: 0px;
 }
-.first-icon #idLineL{
-  position: absolute;
+
+#idLineL{
+  position: relative;
+  left: 65px;
+  top: 172px;
   z-index: 2;
   margin-bottom:6px;
   background-color: rgba(0, 0, 0, 0);
   border-width: 0px;
+  background-image: url("../images/LineL.png");
+  height: 77px;
+  width: 87px;
 }
+
 .button_E7{
   z-index: 2;
   margin-right:8px;
@@ -262,4 +271,3 @@ transform: scale(1.1);
   width:87px;
   height:76px;
 }
-

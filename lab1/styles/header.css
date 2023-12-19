@@ -1,4 +1,6 @@
 .header {
+    width: 1200px;
+    align-self: center;
     display: flex;
     padding: 54px 0 0 0px;
     margin-bottom: 43px;
@@ -10,9 +12,13 @@
     gap:inherit;
     /*letter-spacing: 0.6px;*/
 }
+.menu-parts-header{
+    width:50%;
+
+}
 .header .contact-btn
 {
-    margin-right: 15px;
+    margin-right: 10px;
 }
 .header p
 {
@@ -20,33 +26,26 @@
 }
 
  .menu-items-header div{
-   /* margin-left: 52px;*/
     display: flex;
     gap: inherit;
-
     margin-right: 4px;
-
 }
 .menu-items-header{
     display: flex;
-    gap: 78px;
+    gap: 79px;
     padding-top: 38px;
     letter-spacing: -0.7px;
 }
 .menu-items-header >p:first-child
 {
-    margin-left: -2px;
+    margin-left: -9px;
     font-weight: 900;
     font-size: 22px;
-   /* margin-left: 54px;*/
-    
 }
 .menu-items-header p:last-child
 {
-    margin-left: -2px;
+    margin-left: -3px;
 }
-
-
 .header p:hover {
     font-weight: 900;
     border-bottom: #232323 2px solid;
@@ -54,7 +53,7 @@
 }
 .wrapp-btn
 {
-   
+    width:50%;
     display:flex;
     flex-direction: row-reverse;
 }

@@ -138,54 +138,60 @@
      {        
         width: 1202px;
         margin: 0 auto;
-        margin-top: 5.1rem;
+        margin-top: 4.2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-top: 40px;
 
      }
 
      .wrapper_3 img
      {
-       width :73px;
+      padding-top: 8px;
+       width :70px;
        margin-left: auto;
        margin-right: auto;
-       margin-bottom: 57px;
-     }
- 
-     .text_3 h1
+       margin-bottom: 67px;
+      }
+
+     .text_3 h2
      {
+       margin: 0 auto;
        text-align:center;
        font-family: 'Cardo';
        font-style: bold;
        line-height: 1;
        font-weight: 700;
        font-size: 99px;
-       margin-bottom: 62px;
+       margin-bottom: 55px;
        line-height: 0.98;
        text-shadow: 3px 0px 0px #232323 ;
        letter-spacing: -0.5px;
+       width:800px;        
      }
- 
-     h1 > span{
+
+       h2 > span{
        text-decoration: underline 5px;
        text-underline-offset: 17px;
      }
  
      .text_3 p
      {
+      margin-bottom:23px;
        font-family: 'Lato';
        font-style: black;
        font-size: 24.5px;
        text-align:center;
-       margin-bottom: 8px;
        letter-spacing: -0.15px;
        text-shadow: 1.5px 0px 0px #232323 ;
      }
  
      .scribble-black_3 img{
-      width: 430px;
-       margin-left: 15px;
+       margin-top:-24px;
+       width: 430px;
+       margin-left: 11px;
+       padding-bottom:10px;
      }
 
     wrapper_4
@@ -281,17 +287,17 @@
 
     .group_5
     {
-        height: 870px;
+        height: 890px;
         width: 1440px;
         margin: 0 auto;
-
-        background-image: url("../img/pers-back1.png");
+        background-image: url("../images/pers-back1.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position:center;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-bottom: -19px;
      }
 
      .empty_5{
@@ -302,7 +308,7 @@
     .wrapper_5
     {
         width: 1322px;
-        height: 562px;
+        height: 570px;
         margin-right: 0;
         margin-left: auto;
         padding-top: auto;
