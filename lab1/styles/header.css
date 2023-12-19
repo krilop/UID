@@ -14,39 +14,27 @@
 }
 .menu-parts-header{
     width:50%;
-
+    display: flex;
+    gap: 79px;
+    padding-top: 38px;
+    letter-spacing: -0.7px;
+    padding-right: 30px;
+    flex-direction: row;
+    margin-left:-6px;
 }
 .header .contact-btn
 {
     margin-right: 10px;
 }
-.header p
+.header a
 {
+    display:flex;
     transition:  border-bottom 0.3s, font-weight 0.3s;
 }
 
- .menu-items-header div{
-    display: flex;
-    gap: inherit;
-    margin-right: 4px;
-}
-.menu-items-header{
-    display: flex;
-    gap: 79px;
-    padding-top: 38px;
-    letter-spacing: -0.7px;
-}
-.menu-items-header >p:first-child
-{
-    margin-left: -9px;
-    font-weight: 900;
-    font-size: 22px;
-}
-.menu-items-header p:last-child
-{
-    margin-left: -3px;
-}
-.header p:hover {
+
+
+.header a:hover {
     font-weight: 900;
     border-bottom: #232323 2px solid;
     box-sizing: border-box;
