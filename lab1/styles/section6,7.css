@@ -56,6 +56,10 @@ transform: scale(1.1);
 .button_E{
   position: relative;
   left:145px;
+  background-image: url("../images/plus.png");
+  height: 20px;
+  width: 18px;
+  border-width: 0;
 }
 .rectangle{
   position: relative;
@@ -271,3 +275,4 @@ transform: scale(1.1);
   width:87px;
   height:76px;
 }
+
