@@ -1,7 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-}
 
 /* cardo-regular - latin */
 @font-face {
@@ -53,12 +49,6 @@
     font-weight: 700;
     src: url('../fonts/lato-v24-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
-
-  * {
-    padding: 0;
-    margin: 0;
-  }
-  
   /* cardo-regular - latin */
   @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -112,7 +102,7 @@
 
      .group_3
      {
-      width: 1440px;
+    
       margin: 0 auto;
       height: 877px;
       background-color: #e9e7e7;
@@ -124,7 +114,6 @@
     scribble
      {
       position: absolute; 
-      width: 1440px;
       display: flex;
       justify-content: space-between;
      }
@@ -136,7 +125,7 @@
 
      .wrapper_3
      {        
-        width: 1202px;
+        width: 80%;
         margin: 0 auto;
         margin-top: 4.2rem;
         display: flex;
@@ -196,7 +185,7 @@
 
     wrapper_4
     {
-      max-width: 1202px;
+      max-width: 80%;
       margin: 0 auto;
       display: flex;
     }
@@ -204,7 +193,7 @@
      .group_4
      {
       height: 824px;
-      width: 1440px;
+      width: 100%;
       margin: 0 auto;
       display: flex;
       background-color: #e9e7e7;

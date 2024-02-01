@@ -1,5 +1,5 @@
 .header {
-    width: 1200px;
+    width: 80%;
     align-self: center;
     display: flex;
     padding: 54px 0 0 0px;
@@ -10,7 +10,7 @@
     flex-direction: row;
     justify-content: space-between;
     gap:inherit;
-    /*letter-spacing: 0.6px;*/
+    
 }
 .menu-parts-header{
     width:50%;

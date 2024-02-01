@@ -5,13 +5,14 @@
 }
 
 body {
-    width: 1440px;
+    width: 100%;
     background-color: #e9e7e7;
     font-family: 'Cardo', sans-serif;
     color: #232323;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .spacebetween{

@@ -1,8 +1,8 @@
 .section-1 {
-    
-    padding: 63px 0px 0px 113px;
+    padding: 63px /*0px 0px 113px*/;
     display: flex;
     margin-left: 5px;
+  /*  align-content: space-between;*/
     /*mix-blend-mode: multiply;*/
 }
 .background-image
@@ -14,7 +14,13 @@
     
     
 }
+.end-img{
+    justify-self: end;
+}
 
+.section-1 div:last-of-type {
+    margin-left: auto;
+}
 .section-1 h1{
     padding-left: 1px;
     font: "Cardo";
@@ -28,7 +34,6 @@
     /*padding-left: 6px;*/
     text-align:justify;
     padding-right: 9px;
-    margin-left: -1px;
     font-family: Lato;
     font-style: normal;
     font-size: /*16px*/1em;
@@ -38,9 +43,11 @@
     word-spacing: -0.4px;
 }
 .sec1-two-rows{
+    width: 80%;
     display: flex;
     justify-content: flex-start;
     margin-left: -5px;
+    padding-left: 5%;
 }
 .sec1-first-row button
 {
@@ -90,5 +97,5 @@
 }
 .scribble-dark{
     margin-top: 206%;
-    margin-left: 10%;
+    margin-left: 20%;
 }
