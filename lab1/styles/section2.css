@@ -5,8 +5,9 @@
     justify-content: space-between;
     min-width: 100%;
     background-image: url("../images/sec2Background.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    padding-bottom: 3%;
    /* margin-top: 153px;*/
 }
 .img{

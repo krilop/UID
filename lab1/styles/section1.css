@@ -1,9 +1,7 @@
 .section-1 {
-    padding: 63px /*0px 0px 113px*/;
+    padding-top: 63px /*0px 0px 113px*/;
+    padding-left: 5%;
     display: flex;
-    margin-left: 5px;
-  /*  align-content: space-between;*/
-    /*mix-blend-mode: multiply;*/
 }
 .background-image
 {

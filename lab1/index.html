@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html class="no-js" lang = "en">
+<html lang = "en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width-device-width, initial-scale-1.0">
     <title>Lab1</title>
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/header.css">
@@ -27,11 +26,9 @@
     <meta property="og:url" content="">
     <meta property="og:image" content="">
 
-    <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="./styles/EGOR_normalize.css">
     <link rel="stylesheet" href="./styles/section6,7.css">
 
     <meta name="theme-color" content="#fafafa">
@@ -123,9 +120,6 @@
 
 -->
     <div class="group_3">  
-        <scribble>            
-            <img src="images/scribble-lightest.png" alt = "scribble-lightest">
-        </scribble> 
         <div class="wrapper_3">
                 <img src="images/airplane.png" alt = "plane">
             <div class="text_3">
@@ -141,6 +135,8 @@
             </div>
         </div>
     </div>
+
+
     <div class="group_4">
         <wrapper_4>
             <div class="left_block_4">
@@ -168,6 +164,8 @@
             </div>
         </wrapper_4>
     </div>
+
+    
     <div class="group_5">
         <div class="wrapper_5">           
             <div class="text_5">                
@@ -186,8 +184,6 @@
                 <img src = "images/person.png" alt ="person">            
         </div>
     </div>
-</body>
-</html>
 <!--
         Egor's part
 -->
@@ -267,9 +263,9 @@
 
 
 
-<script src="scritpts/vendor/modernizr-3.11.2.min.js"></script>
-<script src="scritpts/plugins.js"></script>
-<script src="scritpts/main.js"></script>
+<script src="scripts/vendor/modernizr-3.11.2.min.js"></script>
+<script src="scripts/plugins.js"></script>
+<script src="scripts/main.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
@@ -293,10 +289,10 @@
                     Be updated!
                 </h1>
 
-                <label for="First_Name"></label><input class="in1" type="text" id="First_Name" placeholder="First Name*"><!--увеличить ширину в css-->
-                <label for="Last_Name"></label><input class="in2" type="text" id="Last_Name" placeholder="Last Name*"><!--увеличить ширину в css-->
-                <label for="Email_Subject"></label><input class="in3" id="Email_Subject" placeholder="Email Subject*" type="text"><!--увеличить ширину в css-->
-                <label for="Textarea_WSH"></label><textarea class="in4" id="Textarea_WSH" style="resize: none" placeholder="Write something here..."></textarea>
+                <label for="First_Name"></label><input class="in1" type="text" id="First_Name" placeholder="First Name*" autocomplete="off"><!--увеличить ширину в css-->
+                <label for="Last_Name"></label><input class="in2" type="text" id="Last_Name" placeholder="Last Name*" autocomplete="off"><!--увеличить ширину в css-->
+                <label for="Email_Subject"></label><input class="in3" id="Email_Subject" placeholder="Email Subject*" type="text" autocomplete="off"><!--увеличить ширину в css-->
+                <label for="Textarea_WSH"></label><textarea class="in4" id="Textarea_WSH" style="resize: none" placeholder="Write something here..." autocomplete="off"></textarea>
 
                 <button id="btnSub" name="Submit Email" class="btn1" type="submit">Submit Email</button>
             </form>

@@ -2,8 +2,8 @@
 {
     margin-top: 166px;
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 213px;
+    justify-content: space-evenly;
+   /* margin-bottom: 213px;*/
 }
 .sec3-row{
     display: flex;
@@ -32,9 +32,13 @@
 }
 .sec3-with-bg
 {
+    display: flex;
+    justify-content: center;
     background-image: url("../images/sec3-image.png");
-    background-position-y: -15px;
+    background-size: 100% 100%;
+    /*background-position-y: -15px;*/
     background-repeat: no-repeat;
+    padding-bottom: 10%;
 }
 .sec3-line
 {
@@ -44,8 +48,8 @@
 }
 .width-content2
 {
-    margin-left: 118px;
-    margin-right: 115px;
-    width:1207px;
+    /*margin-left: 118px;
+    margin-right: 115px;*/
+    width:80%;
     overflow-x: hidden;
 }
